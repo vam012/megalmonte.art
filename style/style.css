@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+body{
+	background-color:#C1CECE;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+img{
+	vertical-align:middle;
+}
+.siteHeader{
+	text-align: center;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 56px;
+}
+
+.siteHeader a{
+	text-decoration:none;
+	color: #000000;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdownHeader{
+	font-family: 'Kumbh Sans', sans-serif;
+	background: none;
+	border:none;
+	text-align: center;
+	font-size: 16px;
+	padding:10px;
+}
+.dropdownContent{
+	position: absolute;
+	display: none;
+	z-index: 1;
+	background-color: none;
+	text-align:left;
+	white-space:nowrap;
+	outline-style:solid;
+	outline-width:2px;
+	outline-color:grey;
+}
+.dropdownContent a{
+	display:block;
+	font-size: 16px;
+	padding:10px;
+	outline-style:solid;
+	outline-width:1px;
+	outline-color:grey;
+	background: rgba(256,256,256,0.75);
+}
+.navbar{
+	min-width:500px;
+	text-align: center;
+	align-items:center;
+	overflow: visible;
+	background-color: none;
+}
+.navbar a{
+	padding:10px;
+	text-decoration:none;
+	color:#000000;
+	text-align: center;
+	font-size: 16px;
+	padding:10px;
+}
+
+.socialMediaHeader{
+	display: block;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 50px;
+}
+
+.homepageContainer{
+	display: flex;
+	align-items:center;
+	text-align:center;
+	width:80%;
+	margin-left:10%;
+}
+
+.imageContainer{
+	text-decoration:none;
+	position: relative;
+	text-align:center;
+	width:100%;
+	height:auto;
+}
+
+
+
+
+.imageOverlay{
+	text-decoration:none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	width: 100%;
+	max-width:500px;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #ffffff;
+}
+
+
+.overlayText{
+	text-decoration:none;
+	color: white;
+	font-color:white;
+  	font-size: 20px;
+  	position: absolute;
+  	top:50%;
+    	text-align: center;
+	vertical-align:middle;
+}
+
+.gallery{
+	width:80%;
+	margin-left:10%;
+	display:inline-block;
+}
+
+
+.leftSideGallery{
+	float:left;
+	width:40%;
+	margin-left:5%;
+}
+
+.leftSideGallery a{
+	width:75%;
+}
+
+
+.rightSideGallery{
+	width:40%;
+	margin-left:50%;
+	margin-right:10%
+}
+
+.rightSideGallery a{
+	width:75%;
+}
+
+.galleryHeaderDiv{
+	text-decoration:none;
+	display: flex;
+	margin-left:10%;
+	margin-right:10%;
+	align-items:middle;
+	position: relative;
+}
+
+.galleryHeaderDiv a{
+	text-decoration:none;
+	margin-left:2%;
+	width:33%;
+	height: auto;
+}
+
+
+.merch{
+	display:inline-block;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.merchImage{
+	float:left;
+	width:40%;
+	margin-left:10%;
+}
+
+.merchWriteUp{
+	text-decoration:none;
+	margin-left:55%;
+	width:40%;
+	margin-right:5%;
+	vertical-align:middle;
+	font-size:22px;
+	text-align:left;
+}
+
+.merchHeader{
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align:center;
+	align:center;
+}
+
+.contactDiv{
+	align: center;
+	text-align: center;
+	width:70%;
+	margin-left:15%;
+}
+
+.aboutMe{
+	position:relative;
+	max-width:40%;
+}
+
+.slide{
+	display:none;
+}
+.slideshowContainer {
+	position: relative;
+	margin-left:30%;
+	margin-right:30%;
+}
+
+.slideshowCaptionContainer {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+}
+.capt{
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.imageContainer:hover .imageOverlay{opacity:0.75;}
+.navbar a:hover{background-color: rgba(256,256,256,0.50);}
+.dropdownHeader:hover{background-color: rgba(256, 256, 256,0.50);}
+.dropdown:hover .dropdownContent{display: block;}
+.dropdownContent a:hover{background-color: rgba(256, 256, 256,0.50);}
