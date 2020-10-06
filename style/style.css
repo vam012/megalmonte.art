@@ -42,7 +42,6 @@ img{
 }
 .dropdownContent a{
 	display:block;
-	font-size: 16px;
 	padding:10px;
 	outline-style:solid;
 	outline-width:1px;
@@ -165,6 +164,7 @@ img{
 
 
 .merch{
+	min-height:300px;
 	display:inline-block;
 	width:80%;
 	margin-left:10%;
